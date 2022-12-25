@@ -25,14 +25,14 @@
             <details>
                 <summary>HTML Structure</summary><br>
                 <p>
-                &lt;!DOCTYPE html&gt; תגית בסיס לפורמט <br>
-                &lt;html&gt; תגית ראשית<br>
-                &nbsp; &nbsp;&lt; head&gt; תגית ראש העמוד, לא נראה.<br>
-                &nbsp;  &nbsp; &nbsp;         &lt;title&gt; תגית שם לשונית בדפדפן<br>
+                &lt;!DOCTYPE html&gt; <span class="notes">תגית בסיס לפורמט</span> <br>
+                &lt;html&gt; <span class="notes">תגית ראשית</span><br>
+                &nbsp; &nbsp;&lt; head&gt; <span class="notes">תגית ראש העמוד, לא נראה.</span><br>
+                &nbsp;  &nbsp; &nbsp;         &lt;title&gt; <span class="notes">תגית שם לשונית בדפדפן</span><br>
                 &nbsp;  &nbsp;  &nbsp;     &lt;/title&gt;<br>
                 &nbsp;   &lt;/head&gt;<br>
                 
-                &nbsp; &nbsp;  &lt;body&gt; גוף האתר, החלק שרואים<br>
+                &nbsp; &nbsp;  &lt;body&gt; <span class="notes">גוף האתר, החלק שרואים</span> <br>
                 &nbsp; &nbsp;   &lt;/body&gt;<br>
                 &lt;/html&gt;<br>
                 </p>
@@ -43,11 +43,11 @@
                 <summary>Img tag</summary>
                 <p>
                     &lt;img
-    src="URL" (Online) & "./" (Local) <br>
-    alt="Text for disabled persons"<br>
-    height="" (number)<br>
-    <span dir="rtl">
-        לשים לב לקישור התמונה, שהיא לא תמונה עם קישור ארוך, אלא קישור שמסתיים בנקודה פורמט כלשהו כגון JPG PNG וכו'
+    src="URL" <span class="notes">Online </span> "./" <span class="notes">Local</span> <br>
+    alt="<span class="notes">Text for disabled persons</span>"<br>
+    height="<span class="notes">(number)</span>" <br>
+    <span class="notes" dir="rtl">
+        לשים לב לקישור התמונה, שהיא לא תמונה עם קישור ארוך, <br> אלא קישור שמסתיים בנקודה פורמט כלשהו כגון JPG PNG וכו'
     </span>
                 </p>
             </details>
@@ -56,9 +56,9 @@
                 <summary>Hyperlinks</summary>
                 <p>
                     &lt;a <br>
-                href="URL" - Online & "./" - Local <br>
-                target="_blank"&gt; Open in a new browser TAB <br>
-                Link text<br>
+                href="URL" <span class="notes">Online </span> "./" <span class="notes">Local</span> <br>
+                target="_blank"&gt;<span class="notes"> Open in a new browser TAB</span> <br>
+                <span class="notes">Link text</span><br>
                 &lt;/a&gt;<br>
                 </p>
             </details>
@@ -67,9 +67,9 @@
                 <summary>Video</summary> 
                 <p>
                     &lt;video <br>
-Controls <br>
-Muted <br>
-src="URL" (Online) & "./" (Local)<br>
+Controls <span class="notes">Add controls like Play/Pause ect.</span><br>
+Muted <span class="notes">Play muted</span><br>
+src="URL" <span class="notes">Online </span> "./" <span class="notes">Local</span><br>
 /&gt;<br>
                 </p>
             </details>
@@ -78,15 +78,15 @@ src="URL" (Online) & "./" (Local)<br>
                 <summary>Lists</summary>
                 <p>
                     &lt;ul&gt; Unordered lists: 
-                    <span dir="rtl">
+                    <span class="notes" dir="rtl">
             רשימה עם נקודות
                     </span><br>
             &lt;ol&gt; Ordered lists: 
-            <span dir="rtl">
+            <span class="notes" dir="rtl">
             רשימה ממוספרת
             </span> <br>
             &nbsp;&nbsp;&nbsp;&lt;li&gt; 
-            <span dir="rtl">
+            <span class="notes" dir="rtl">
                 פריטים ברשימה,
                 זוהי התגית היחידה שמותרת בתוך תגיות ה-ul ו- ol.
             </span>
@@ -108,7 +108,7 @@ src="URL" (Online) & "./" (Local)<br>
     &nbsp;&nbsp;&nbsp;&nbsp;Table Data&lt;/td&gt;<br>
     &nbsp;&nbsp;&lt;/tr&gt;<br>
     &lt;/tbody&gt;
-    <span dir="rtl">
+    <span class="notes" dir="rtl">
     
     </span><br>
     &lt;tfoot&gt;<br>
@@ -198,8 +198,21 @@ src="URL" (Online) & "./" (Local)<br>
                         <label for="this is a">this is a Label:</label>
                         <input type="text" value="And Input inside a Fieldset">
                     </fieldset>
-
                 </section>
+            </details>
+
+            <details>
+                <summary>Semantics</summary>
+                <p>
+                    &lt;header&gt;<span class="notes">Head of page</span>&lt;/header&gt;<br>
+                    &lt;main&gt;<span class="notes">Main part of page</span>&lt;/main&gt;<br>
+                    &lt;footer&gt;<span class="notes">Bottom part of page</span>&lt;/footer&gt;<br>
+                    &lt;nav&gt;<span class="notes">Navigation</span>&lt;/nav&gt;<br>
+                    &lt;aside&gt;<span class="notes">Side part of page</span>&lt;/aside&gt;<br>
+                    &lt;section&gt;<span class="notes">Section</span>&lt;/section&gt;<br>
+                    &lt;article&gt;<span class="notes">Article</span>&lt;/article&gt;<br>
+                    &lt;div&gt;<span class="notes">Used manley to style chunks of code.</span>&lt;/div&gt;<br>
+                </p>
             </details>
        </section>
          </div>
