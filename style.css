@@ -12,7 +12,7 @@ aside {
    display: inline-block;
    vertical-align: top;
    margin-top: 20px;
-   width: 29%;
+   width: 20%;
    height: 100%;
 }
 
@@ -24,6 +24,32 @@ aside article {
    margin: 10px;
    padding: 10px;
    border-radius: 10px;
+   text-align: center;
+}
+
+aside .article-content {
+   padding: 5px;
+}
+
+aside h3 {
+   margin-top: 0%;
+   font-size: 15px;
+}
+
+aside p {
+   font-family: monospace;
+   font-size: 13px;
+   text-align: left;
+}
+
+aside a {
+   color: black;
+   text-decoration: none;
+}
+
+aside img {
+   max-width: 100%;
+   max-height: 100%;
 }
 
 main {
@@ -74,7 +100,7 @@ main h1 {
 
 .summaries {
    display: inline-block;
-   width: 70%;
+   width: 79%;
    margin-top: 20px;
 }
 
