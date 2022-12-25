@@ -3,7 +3,10 @@
 }
 
 main {
-   margin-inline: 100px;
+   /* margin-inline: 100px; */
+   width: 95%;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .header {
@@ -57,13 +60,15 @@ main h1 {
    border-radius: 10px;
 }
 
-.summaries p {
+.summaries p,
+.summaries section {
    font-family: monospace;
    font-size: 15px;
    font-weight: 100;
    display: inline-block;
-   background-color: white;
+   background-color: rgb(53, 62, 75);
+   color: white;
    padding: 20px;
    border-radius: 5px;
-   border: 1px solid black;
+   border: 1px solid rgb(255, 255, 255);
 }
