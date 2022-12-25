@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&family=Inconsolata:wght@200;300;400;600;700&display=swap");
+
+a {
+   color: orange;
+}
 
 * {
    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -119,7 +123,6 @@ main h1 {
 
 .summary-content {
    font-size: 15px;
-   font-weight: 100;
    display: inline-block;
    background-color: rgb(53, 62, 75);
    color: white;
@@ -129,12 +132,15 @@ main h1 {
 }
 
 .summary-content * {
-   font-family: monospace;
+   font-family: "Inconsolata", monospace;
+   font-weight: 300;
+   letter-spacing: 0.03em;
 }
 
-.notes {
+.summaries .notes {
    color: orange;
    font-family: "IBM Plex Sans Hebrew", sans-serif;
    font-size: 14px;
    font-weight: 200;
+   letter-spacing: normal;
 }
