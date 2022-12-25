@@ -112,7 +112,6 @@ main h1 {
 }
 
 .summary-content {
-   font-family: monospace;
    font-size: 15px;
    font-weight: 100;
    display: inline-block;
@@ -121,6 +120,10 @@ main h1 {
    padding: 20px;
    border-radius: 5px;
    border: 1px solid rgb(255, 255, 255);
+}
+
+.summary-content * {
+   font-family: monospace;
 }
 
 .notes {
