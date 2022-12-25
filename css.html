@@ -22,11 +22,38 @@
       <main>
          <section class="summaries">
             <details>
-               <summary>Link Css file to HTML</summary>
+               <summary>Link CSS file to HTML</summary>
                <br />
-               <p>
-                 <link rel="stylesheet" href="">
-               </p>
+               <div class="summary-content">
+                     <p>
+                  There are 3 ways to link your CSS file to the HTML:
+                  <ol>
+                     <li>
+                        Styling inside the HTML tag:
+                        &lt;h1 style=&quot;color: black; font-size: 15px;&quot;&gt;&lt;/h1&gt;
+                     </li>
+
+                     <li>
+                        Styling inside the HTML file Using &lt;style&gt; tag:
+                        &lt;style&gt;
+                           h1 {
+                              color: black;
+                              font-size: 15px;
+                           }
+                           You should place the &lt;style&gt; tag in the &lt;head&gt;&gt; tag
+                        &lt;/style&gt;
+                     </li>
+
+                     <li>
+                        Linking to external CSS file:
+                        &lt;link rel=&quot;stylesheet&quot; href=&quot;./location of file&quot;&gt;
+                        This is the recommended method to style entire web-sites.
+                        </li>
+                  </ol>
+
+               </p> 
+               </div>
+           
             </details>
          </section>
 
