@@ -22,32 +22,44 @@
       <main>
          <section class="summaries">
             <details>
-               <summary>Link CSS file to HTML</summary>
+               <summary>Apply CSS to HTML</summary>
                <br />
                <div class="summary-content">
                      <p>
-                  There are 3 ways to link your CSS file to the HTML:
+                        <span class="notes">
+                           There are 3 ways to apply CSS styling to the HTML:
+                        </span>
                   <ol>
                      <li>
-                        Styling inside the HTML tag:
+                        <span class="notes">
+                           Styling inside the element tag itself: <br>
+                        </span>
                         &lt;h1 style=&quot;color: black; font-size: 15px;&quot;&gt;&lt;/h1&gt;
                      </li>
 
                      <li>
-                        Styling inside the HTML file Using &lt;style&gt; tag:
-                        &lt;style&gt;
-                           h1 {
-                              color: black;
-                              font-size: 15px;
-                           }
-                           You should place the &lt;style&gt; tag in the &lt;head&gt;&gt; tag
-                        &lt;/style&gt;
+                        <span class="notes">
+                           Styling inside the HTML file Using &lt;style&gt; tag:<br>
+                        </span>
+                        &lt;style&gt; <br>
+                        &nbsp;&nbsp;h1 {<br>
+                           &nbsp;&nbsp;&nbsp;&nbsp;color: black;<br>
+                           &nbsp;&nbsp;&nbsp;&nbsp;font-size: 15px;<br>
+                           &nbsp;&nbsp;}<br>
+                           &lt;/style&gt;<br>
+                           <span class="notes">
+                              You should place the &lt;style&gt; tag in the &lt;head&gt; tag<br>
+                           </span>
                      </li>
 
                      <li>
-                        Linking to external CSS file:
+                        <span class="notes">
+                           Linking to external CSS file:<br>
+                        </span>
                         &lt;link rel=&quot;stylesheet&quot; href=&quot;./location of file&quot;&gt;
-                        This is the recommended method to style entire web-sites.
+                        <span class="notes"> <br>
+                           This is the recommended method to style entire web-sites.
+                        </span>
                         </li>
                   </ol>
 
