@@ -45,12 +45,12 @@ aside .article-content {
 
 aside h3 {
    margin-top: 0%;
-   font-size: 1em;
+   font-size: 1.2em;
 }
 
 aside p {
    font-family: monospace;
-   font-size: 1em;
+   font-size: 1.2em;
    text-align: left;
 }
 
@@ -80,13 +80,13 @@ main {
 .header p {
    font-family: monospace;
    color: rgb(37, 37, 37);
-   border: 5px solid rgb(0, 0, 0);
+   border: 4px solid rgb(0, 0, 0);
    width: fit-content;
    font-size: 30px;
    margin-block: 20px;
    margin-left: auto;
    margin-right: auto;
-   padding-inline: 10px;
+   padding: 7px;
 }
 
 .header nav a {
@@ -116,6 +116,10 @@ main h1 {
    margin-top: 20px;
 }
 
+summary {
+   font-size: 1.2em;
+}
+
 .summaries details {
    background-color: aliceblue;
    margin: 10px;
@@ -128,7 +132,7 @@ main h1 {
 }
 
 .summary-content {
-   font-size: 15px;
+   font-size: 1.2em;
    display: inline-block;
    background-color: rgb(53, 62, 75);
    color: white;
@@ -146,7 +150,7 @@ main h1 {
 .summaries .notes {
    color: orange;
    font-family: "IBM Plex Sans Hebrew", sans-serif;
-   font-size: 14px;
+   font-size: 0.9em;
    font-weight: 200;
    letter-spacing: normal;
 }
@@ -165,6 +169,6 @@ footer h3 {
    padding: 2px;
    font-family: "Inconsolata", monospace;
    font-weight: 400;
-   font-size: 0.7em;
+   font-size: 0.9em;
    /* vertical-align: bottom; */
 }
