@@ -18,6 +18,10 @@ body {
    margin-right: auto;
 }
 
+body h1 {
+   font-family: "Inconsolata", monospace;
+}
+
 aside {
    display: inline-block;
    vertical-align: top;
