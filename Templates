@@ -1,0 +1,13 @@
+Summary box
+
+<details>
+   <summary>Apply CSS to HTML</summary>
+   <br />
+   <div class="summary-content">
+      <p></p>
+   </div>
+</details>
+
+span .note
+
+<span class="notes"></span>
