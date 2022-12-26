@@ -164,6 +164,7 @@ footer h3 {
    border: 1px black solid;
    padding: 2px;
    font-family: "Inconsolata", monospace;
+   font-weight: 400;
    font-size: 0.7em;
    /* vertical-align: bottom; */
 }
