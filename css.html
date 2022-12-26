@@ -174,7 +174,81 @@ div > #hello {
                </div>
             </details>
 
+            <details>
+               <summary>Display Property</summary>
+               <br />
+               <div class="summary-content">
+                  <p>
+                     <span class="notes">
+                        Specifies how to align HTML elements.
+                     </span>
+
+                     <ol>
+                        <li>
+                           display: block;
+                           <span class="notes">
+                              = there CAN'T be other element next to him.
+                           </span> <br>
+
+                           <div class="display-examples" style="margin: 5px ;padding: 10px; border: 1px solid white;">
+                              <div style="margin-bottom: 7px ;color: black ; font-size: 35px ;text-align: center ;background-color: aliceblue; width: 50px; height: 50px;">1</div>
+                              <div style="color: black ; font-size: 35px ;text-align: center ;background-color: rgb(184, 211, 234); width: 50px; height: 50px;">2</div>
+                           </div>
+
+                        </li>
+
+                        <li>
+                           display: inline-block;
+                           <span class="notes">
+                              = there CAN be other element next to him.
+                           </span><br>
+
+                           <div class="display-examples" style="margin: 5px ;padding: 10px; border: 1px solid white;">
+                              <div style="display: inline-block ; color: black ; font-size: 35px ;text-align: center ;background-color: aliceblue; width: 50px; height: 50px;">1</div>
+                              <div style="display: inline-block ; color: black ; font-size: 35px ;text-align: center ;background-color: rgb(184, 211, 234); width: 50px; height: 50px;">2</div>
+                           </div>
+                        </li>
+
+                        <li>
+                           display: inline;
+                           <span class="notes">
+                              = The elements takes only the space of their content. <br>
+                              width and height cannot be set.
+                           </span>
+
+                           <div class="display-examples" style="margin: 5px ;padding: 10px; border: 1px solid white;">
+                              <div style="display: inline ; color: black ; font-size: 35px ;text-align: center ;background-color: aliceblue; width: 50px; height: 50px;">1</div>
+                              <div style="display: inline ; color: black ; font-size: 35px ;text-align: center ;background-color: rgb(184, 211, 234); width: 50px; height: 50px;">2</div>
+                           </div>
+                        </li>
+
+                        <li>
+                           <span class="notes">
+                              Combined:
+                           </span>
+
+                           <div class="display-examples" style="font-size:0px ;margin-top: 10px; padding: 10px; border: 1px solid white;">
+                              <div style="display: block ; width: 100% ; color: black ; font-size: 15px ;text-align: center ;background-color: aliceblue; height: 50px;"> block</div>
+                              <div style="width: 100% ; margin-block: 5px;">
+                                 <div style="display: inline-block ; width: 70% ;color: black ; font-size: 15px ;text-align: center ;background-color: rgb(184, 211, 234); height: 50px; vertical-align: top;">inline-block width 70% </div>
+                                 <div style="display: inline-block ; width: 30% ; color: black ; font-size: 15px ;text-align: center ;background-color: aliceblue; height: 50px;">inline-block width 30%</div>
+                              </div>
+                              <div style="display: block ; color: black ; font-size: 15px ;text-align: center ;background-color: rgb(184, 211, 234); height: 50px;">block</div>
+                           </div>
+
+                        </li>
+                        
+
+                     </ol>
+                  </p>
+               </div>
+            </details>
+
          </section>
+
+
+
+
 
          <aside>
 
