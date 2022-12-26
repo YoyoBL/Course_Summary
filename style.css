@@ -150,3 +150,20 @@ main h1 {
    font-weight: 200;
    letter-spacing: normal;
 }
+
+footer {
+   background-color: rgb(195, 217, 236);
+   padding: 20px 10px 5px;
+}
+
+footer h3 {
+   width: fit-content;
+   margin-left: auto;
+   margin-right: 0;
+   margin-block: 0px;
+   border: 1px black solid;
+   padding: 2px;
+   font-family: "Inconsolata", monospace;
+   font-size: 0.7em;
+   /* vertical-align: bottom; */
+}
