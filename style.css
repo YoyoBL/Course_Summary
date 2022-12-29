@@ -12,6 +12,18 @@ li {
    margin-block: 10px;
 }
 
+table,
+th,
+td {
+   border: solid black 1px;
+   border-collapse: collapse;
+   padding: 5px;
+}
+
+strong {
+   font-family: "Inconsolata", monospace;
+}
+
 body {
    width: 90%;
    margin-left: auto;
