@@ -489,7 +489,41 @@ rem – <span class="notes">relative to the default font size of the root (of th
                </div>
             </details>
 
-            
+            <details>
+               <summary>Position</summary>
+               <br />
+               <div class="summary-content">
+                  <ul>
+                     <li>
+                        Static – <span class="notes">default.</span> <br>
+                     </li>
+
+                     <li>
+                        Relative – <span class="notes">moves relative to original position. stays in the flow of the page.</span> <br>
+                     </li>
+
+                     <li>
+                        Absolute – <span class="notes">relative to any ancestor who's not in a static position. gets out of the flow of the page.</span> <br>
+                     </li>
+
+                     <li>
+                     Fixed – <span class="notes">relative to viewport. meaning that it keeps its position even if the user scrolls up and down. Gets out of main flow.</span><br>
+                     </li>
+
+                     <li>
+                        Sticky – <span class="notes">a combination of all the above. Stays in the flow. Remember to specify a location parameter (top/left ect...), otherwise he won't move if scrolled.</span> 
+                     </li>
+                  </ul>
+
+                  <p>
+                     <span class="notes"> Additional parameter that goes along with all the above, to specify how we want to place the element: </span> <br>
+                     
+top | bottom | left | right | z-index <span class="notes">(front and back axis, in order to control who's on top ) </span>  <br>
+
+
+                  </p>
+               </div>
+            </details>
 
          </section>
 
